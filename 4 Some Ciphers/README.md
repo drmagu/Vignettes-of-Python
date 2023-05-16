@@ -1,6 +1,6 @@
 # Some Ciphers
 Just playing with ciphers in Python.  
-There are currently two ciphers presnted:
+There are currently two ciphers presented:
 * The Caesar cipher (mono alphabet subsitution cipher)
 * An Extended Vinegere cipher (poly alphabet substition cipher)
 
