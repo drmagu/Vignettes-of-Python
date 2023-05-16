@@ -12,7 +12,7 @@ This is obviously personal. Mostly these are ideas, or pythonic concepts that fo
 Any feedback or comments can be addressed by email to vignettes@drmagu.com
 
 ## Current Vignettes
-* 1 Pickles are Yummie
+* [1 Pickles are Yummie](https://github.com/drmagu/NewRepo/tree/master/1%20Pickles%20are%20Yummie)
 * 2 Python Include with Dill Pickles
 * 3 Many Pickles and Dills
 * 4 Vigenere
