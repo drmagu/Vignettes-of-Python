@@ -9,7 +9,7 @@ We will use this definition as based on what I found in Wikipedia:
 This is obviously personal. Mostly these are ideas, or pythonic concepts that for some reason piqued my interest.  
 
 ## Enjoy!  
-Any feedback or comments can be addressed by email to vignettes@drmagu.com
+Any feedback or comments can be addressed by email to maguenterprises@gmail.com
 
 ## Current Vignettes
 * [1 Pickles are Yummie](https://github.com/drmagu/NewRepo/tree/master/1%20Pickles%20are%20Yummie)
