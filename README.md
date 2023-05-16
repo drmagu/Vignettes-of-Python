@@ -13,7 +13,7 @@ Any feedback or comments can be addressed by email to vignettes@drmagu.com
 
 ## Current Vignettes
 * [1 Pickles are Yummie](https://github.com/drmagu/NewRepo/tree/master/1%20Pickles%20are%20Yummie)
-* 2 Python Include with Dill Pickles
+* [2 Python Include with Dill Pickles](https://github.com/drmagu/NewRepo/tree/master/2%20Python%20Include%20Dill%20with%20Pickles)
 * 3 Many Pickles and Dills
 * [4 Some Ciphers](https://github.com/drmagu/NewRepo/tree/master/4%20Some%20Ciphers#some-ciphers)
 
