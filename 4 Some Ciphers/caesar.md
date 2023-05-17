@@ -1,4 +1,4 @@
-# Caesar Cipher
+# Caesar cipher
 ## Principles
 A simple substitution cipher. In our context, we have the following restrictions:
 * only lower case alphabetic characters
