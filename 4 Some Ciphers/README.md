@@ -9,4 +9,4 @@ Both ciphers are implemented as a Python class.
 
 For more see
 * [Caesar Cipher](https://github.com/drmagu/Vignettes-of-Python/blob/master/4%20Some%20Ciphers/caesar.md#caesar-cipher)
-* Vigenere Extended Cipher
+* [Vigenere Extended Cipher](https://github.com/drmagu/Vignettes-of-Python/blob/master/4%20Some%20Ciphers/vigenere.md#vigenere)
