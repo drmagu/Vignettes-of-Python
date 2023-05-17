@@ -11,8 +11,8 @@ In the file *vigenere_class.py*, we define:
 * which can be instantiated with a **key**
     * vigenere = __Vigenere__("ThisIsTheKey")
 * the following methods are available:
-    * vigenere.__encrypt__(message: str) : str
-    * vigenere.__decrypt__(cipher: str): str
+    * vigenere.__encrypt__(message: str) -> str
+    * vigenere.__decrypt__(cipher: str) -> str
 
 One more thing: 
 * the _key_ can not be an _empty_ string
