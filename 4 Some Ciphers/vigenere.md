@@ -1,4 +1,4 @@
-# Vigenere
+# Vigenere Extended cipher
 ## What it is
 The original vigenere cipher was meant to encode text consisting of (lower case) alpha characters. 
 Read here: [Vigenère cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)  
@@ -11,8 +11,8 @@ In the file *vigenere_class.py*, we define:
 * which can be instantiated with a **key**
     * vigenere = __Vigenere__("ThisIsTheKey")
 * the following methods are available:
-    * vigenere.__encrypt__(message: str) : str
-    * vigenere.__decrypt__(cipher: str): str
+    * vigenere.__encrypt__(message: str) -> str
+    * vigenere.__decrypt__(cipher: str) -> str
 
 One more thing: 
 * the _key_ can not be an _empty_ string
