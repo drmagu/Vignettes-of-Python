@@ -32,7 +32,7 @@ The _symbol table_ functionality is implemented:
     * example: symbols[2] would return 'b'.
 * to be able to encrypt larger texts, we also need a symbol for the 'newline'.
 
-In the **encrypt** method, we make sure that there are no spaces or newlines in he encryption.
+In the **encrypt** method, we make sure that there are no spaces or newlines in the encryption.
 * when we encounter a space, ' ', we encrypt it as '~'
 * when a newline, '\n', is encountered it is encrypted as '`'
 
