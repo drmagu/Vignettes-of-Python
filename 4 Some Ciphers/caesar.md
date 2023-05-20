@@ -13,7 +13,7 @@ The implementation is in Python 3, see *caesar_class.py*
 We use a class, called Caesar. 
 The Caesar class can be instantiated with a 'shift' like so:
 * caesar = __Ceasor__(14)  
-Onde we have the __caesor__ object, we can use the methods:
+Once we have the __caesor__ object, we can use the methods:
 * caesar.__clean__(message: str) -> str, which removes all characters not in the lower case alphabet.
 * caesor.__encrypt__(message: str) -> str, which encodes the (cleaned) message.
 * caesar.__decrypt__(message: str) -> str, which decodes the encoded message.  
