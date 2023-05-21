@@ -25,29 +25,33 @@ See *graph_class.py* for the implementation.
     * graph: a dictionary
     * nodes: a list of nodes
 * methods
-    * add_node(node)
+    * add_node(node) -> None
         * append the node to the nodes list
         * enter the node as a key in the graph with an empty list as values
-    * add_edge(edge)
+    * add_edge(edge) -> None
         * parameter is edge, a tuple of nodes
         * nodes are added to the nodes list
         * the value for the keys in the graph is updated
-    * show_edges()
+    * show_edges() -> list
         * returns a list of tuples (the edges)
-    * find_path(start, end)
+    * find_path(start, end) -> list
         * start and end are nodes
         * the path between them, if it exists, is a list of nodes with path[0] as start and path[len(path)-1] as end
         * if there is no path, None is returned
-    * find_all_paths()
-        * returns a list of paths
+    * find_paths(start, end) -> list
+        * start and end are nodes
+        * a list of paths between start and end  
+        * if there are no paths, None is returned  
+    * find_all_paths() -> list
+        * returns a list of all paths in the graph
         * returns None if there are no paths 
             * this only is possible when all values in the dictionary are an empty list
             * when there is only 1 node (hence not a graph)
-    * shortest_path
+    * shortest_path -> list
         * uses the min function on the all_paths list
-    * longest_path
+    * longest_path -> list
         * uses the max function on the al_paths list
-    * hamiltonian()
+    * hamiltonian() -> bool
         * checks to see if the number of nodes in the longest path equals the number of nodes
             * if so, return True
             * if not, return False
