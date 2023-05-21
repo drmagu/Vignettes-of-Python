@@ -18,9 +18,20 @@ So there are 5 nodes, and 'a' is connected to 'c' and 'd', etc.
 
 With this backgound in mind, let us develop the Graph class.  
 
+## Further notes
+
+### Hamiltonian
+In the mathematical field of graph theory, a Hamiltonian path (or traceable path) is a path in an undirected or directed graph that visits each vertex exactly once. A Hamiltonian cycle (or Hamiltonian circuit) is a cycle that visits each vertex exactly once. 
+
+A graph that contains a Hamiltonian Path (__HP__) is called a _traceable graph_.  
+
+### Examples of non hamiltonian graphs
+[Untraceable Graph](https://mathworld.wolfram.com/UntraceableGraph.html)
+
+## Graph class implementation
+
 See *graph_class.py* for the implementation.  
 
-## Graph class
 * attributes
     * graph: a dictionary
     * nodes: a list of nodes
@@ -55,16 +66,6 @@ See *graph_class.py* for the implementation.
         * checks to see if the number of nodes in the longest path equals the number of nodes
             * if so, return True
             * if not, return False
-
-## Notes on the implementation
-
-### Hamiltonian
-In the mathematical field of graph theory, a Hamiltonian path (or traceable path) is a path in an undirected or directed graph that visits each vertex exactly once. A Hamiltonian cycle (or Hamiltonian circuit) is a cycle that visits each vertex exactly once. 
-
-A graph that contains a Hamiltonian Path (__HP__) is called a _traceable graph_.  
-
-### Examples of non hamiltonian graphs
-[Untraceable Graph](https://mathworld.wolfram.com/UntraceableGraph.html)
 
 ## Test and demo
 See *graphs_demo.py*.  
