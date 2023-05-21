@@ -49,7 +49,7 @@ A __usecase__ can be added using the __add__ method wich takes 3 parameters:
 * the _key_ for the _vigenere_ instance to be used
 
 A __usecase__ is selected by providing an index.  
-So if there are 4 _usecases_, as in the *vigenere_demo.py* file, 0, 1, 2, 3 will select a usecase.  
+So if there are 4 _usecases_, as in the *vigenere_demo.py* file, __0__, __1__, __2__, __3__ will select a usecase.  
 
 The **process_use_case()** function does encryption, decryption and provides output on the console.  
 * example: process_use_case(usecases, 0)
