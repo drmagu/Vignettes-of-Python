@@ -60,7 +60,7 @@ The **process_use_case()** function does encryption, decryption and provides out
 
 In the *vigenere_demo* we have a 
 * simple demo ... just lower case alpha
-* a line with some punctutuation and other symbols
+* a line with some punctuation and other symbols
 * a multi-line message
 * a longer message read from the included text file _tomsawyer.txt_
 
