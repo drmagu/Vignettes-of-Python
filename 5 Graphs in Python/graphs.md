@@ -2,7 +2,7 @@
 
 The main takeway of this vignette is that _graphs_ can be implemented with a _python dictionary_.  
 
-The _keys_ of the _dictionary_ used are the _nodes_ of our graph. The corresponding _values_ are _lists of nodes_, to which the _key node_ is connected.  
+The _keys_ of the _dictionary_ are the _nodes_ of our graph. The corresponding _values_ are _lists of nodes_, to which the _key node_ is connected.  
 
 Example: 
 ```
