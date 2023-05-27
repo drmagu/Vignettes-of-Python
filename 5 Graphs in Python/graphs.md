@@ -62,7 +62,7 @@ See *graph_class.py* for the implementation.
         * uses the min function on the all_paths list
     * longest_path -> list
         * uses the max function on the al_paths list
-    * hamiltonian() -> bool
+    * is_hamiltonian() -> bool
         * checks to see if the number of nodes in the longest path equals the number of nodes
             * if so, return True
             * if not, return False
