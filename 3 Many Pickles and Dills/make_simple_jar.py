@@ -1,4 +1,4 @@
-#! /usr/bin/python3
+
 import dill
 simp = {'a': 1, 'b': 2}
 simp_dill = dill.dumps(simp)

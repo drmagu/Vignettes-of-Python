@@ -1,4 +1,4 @@
-#! /usr/bin/python3
+
 import dill
 """
 We will make a jar containing two dills.  
@@ -6,6 +6,10 @@ The first dill is the print_me(expression) function we used in vignette 2.
 The second dill is a disclaimer text.
 """
 def print_me(expression, namespace=globals()):
+    """
+    Function that evaluates and prints the result of an expression.
+    """
+    namespace = globals()
     print(expression + ' => ', eval(expression, namespace))
 
 medical_disclaimer = """
@@ -16,21 +20,31 @@ The content is not intended to be a substitute for professional medical advice, 
 Reliance on any information provided is solely at your own risk. 
 """
 
-# the jar is a dictionary
-jar = {
-    'print_me': print_me,
-    'medical_disclaimer': medical_disclaimer
-}
+def create_jar():
+    """
+    Function that pickles two items: the print_me function and a disclaimer text.
+    """
+    # the jar is a dictionary
+    jar = {
+        'print_me': print_me,
+        'medical_disclaimer': medical_disclaimer
+    }
 
-jar_dill = dill.dumps(jar)
-with open("./my_jar.dill", "wb") as fh:
-    # dill.dumps(jar, fh)
-    fh.write(jar_dill)
+    jar_dill = dill.dumps(jar)
 
-print_me("jar")
+    # Write the serialized jar into a file
+    with open("./my_jar.dill", "wb") as fh:
+        # dill.dumps(jar, fh)
+        fh.write(jar_dill)
 
-# new_jar = dict()
-with open("./my_jar.dill", "rb") as fh:
-    new_jar_dill = fh.read()
-new_jar = dill.loads(new_jar_dill)
-print_me("new_jar")
+    print(f"jar: {jar}")
+
+    # Load the jar back from the file to verify
+    new_jar_dill = None
+    with open("./my_jar.dill", "rb") as fh:
+        new_jar_dill = fh.read()
+    new_jar = dill.loads(new_jar_dill)
+    print(f"new_jar: {new_jar}")
+
+if __name__ == "__main__":
+    create_jar()
