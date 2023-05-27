@@ -23,14 +23,14 @@ jar = {
 }
 
 jar_dill = dill.dumps(jar)
-with open("my_jar.dill", "wb") as fh:
+with open("./my_jar.dill", "wb") as fh:
     # dill.dumps(jar, fh)
     fh.write(jar_dill)
 
 print_me("jar")
 
 # new_jar = dict()
-with open("my_jar.dill", "rb") as fh:
+with open("./my_jar.dill", "rb") as fh:
     new_jar_dill = fh.read()
 new_jar = dill.loads(new_jar_dill)
 print_me("new_jar")
