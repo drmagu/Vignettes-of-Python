@@ -32,3 +32,14 @@ Execute *dump_me.py* (no problem) and *load_me.py* (***OOPS!***).
 use *import dill*  
 Now try *dilly_dump_me.py* and *dilly_load_me.py*, ***SUCCESS!!!***.
  
+# How to use the examples given
+* First, try *dump_me.py*.  
+    * this creates *my_func.pkl*
+    * it reads it bacj just fine
+* Then *load_me.py*
+    * this fails, as it can not retrieve the function
+* We repeat the exercise with *dump_me2.py* and *load_me2.py*
+    * Same issue
+* *dill* to the rescue.
+    * run *dilly_dump_me* which creates *print_me.dill*
+    * this now sucessfully retrieves the *print_me* function

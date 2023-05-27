@@ -10,6 +10,4 @@ with open("my_hello.pkl", "wb") as fh:
 print("'my_hello.pkl' is ready to be used")
 with open("my_hello.pkl", "rb") as fh:
     my_func = pickle.load(fh)
-# hello = "Hello Pickles"
 print(my_func("Bob"))
-# my_func("type(my_func)")
